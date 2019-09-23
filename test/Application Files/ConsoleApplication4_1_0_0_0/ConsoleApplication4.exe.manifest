@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConsoleApplication4.exe" version="1.0.0.0" publicKeyToken="577e4a04c52f8b3e" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConsoleApplication4" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ConsoleApplication4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApplication4.exe" size="9696">
+      <assemblyIdentity name="ConsoleApplication4" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TQiLdweCE2wkG4zJWh4FIVtulmFmLLNy0r3Znd8bD44=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.zkemkeeper.dll" size="53248">
+      <assemblyIdentity name="Interop.zkemkeeper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>w4ZlbEfbwmUfztx3nCm1RA4otZfgNhMlbUOBMxWrPVI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConsoleApplication4.exe.config" size="440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xPDoviZeexC/Xf8bplC/I83WgKOzXNRh6322r1dCfgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-VD1KHSR\criss" issuerKeyHash="50210011044cdb326871413ff8dd065a4d326e39" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u44qzg2GCDzed3n1l+xgKF0Bu8cTI/mpF/brsRzVLA8=</DigestValue></Reference></SignedInfo><SignatureValue>PKpCmC6iGYS16D9WiXwYsgJEEq3qFrOqK0ef/C20BttdPNc7IbJmg8GKDeOH6/OXPdMnRTeWKdIcBlZ6Ry+W/T7tiL/JiHbGFZFMGKYq4Ku5sG2FJXA61yxdJqRDMSTkZY1OGhtt4PxRKywEW8lFYWEzzb2aL4vySwV8EjJttvY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>saNSh3DEQXdMcHptDLvYTkF2awUzoyTv0seB4i+E/lNSZGJZGSClXcUS40mBjrlZve3kK7cGe28oNVJdrwvF7LhrIJ57PHB8e/yQ2JHzdlZdzrefsgKGjWi371JcTsRJrNSvk/DL7cjDual9LDxigRQsus/QBtyVaukx+xSmBU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f2cd51cb1ebf617a9f92313c7bb015d2860ec97f57977de3c08860dce2a8ebb" Description="" Url=""><as:assemblyIdentity name="ConsoleApplication4.exe" version="1.0.0.0" publicKeyToken="577e4a04c52f8b3e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VD1KHSR\criss</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5PqLgyiQVaBTzwEh9er0RM06jdn/9DQP+dABorFrJR0=</DigestValue></Reference></SignedInfo><SignatureValue>gx406nBqdp3n34EsmN5P7zTDDvvhn6nWoYP9CJCwHUG4/FzYY84FYcRTMZjVMI0VFnOodFDQ4P6Icm3NMdNEOYRJk+sIRbuXtMuILGq6QwZvQwKaPl23+BJmz9m34oWN9v0PcmrBJzvF2N4IgfbQebm4JVw5x85Qwt1eHNvlTZg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>saNSh3DEQXdMcHptDLvYTkF2awUzoyTv0seB4i+E/lNSZGJZGSClXcUS40mBjrlZve3kK7cGe28oNVJdrwvF7LhrIJ57PHB8e/yQ2JHzdlZdzrefsgKGjWi371JcTsRJrNSvk/DL7cjDual9LDxigRQsus/QBtyVaukx+xSmBU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHLuxlibZjIVI3Alf6YtWuDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYARAAxAEsASABTAFIAXABjAHIAaQBzAHMwHhcNMTkwOTE4MTEzNjA3WhcNMjAwOTE3MTczNjA3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYARAAxAEsASABTAFIAXABjAHIAaQBzAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALGjUodwxEF3THB6bQy72E5BdmsFM6Mk79LHgeIvhP5TUmRiWRkgpV3FEuNJgY65Wb3t5Cu3BntvKDVSXa8Lxey4ayCeezxwfHv8kNiR83ZWXc63n7ICho1ot+9SXE7ESazUr5Pwy+3Iw7mpfSw8YoEULLrP0AbclWrpMfsUpgVNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAa9tYaE4BuORU8fMAypZO4g1RynE0kQhecxGBdGMfyoFeUwKMtf+NYbSYqGAmUtliq+6S/IfMQZImWE0SkXBw6HQBupEziYDSSsG13pQig2n5WJ0eFEgKZQ2Ou+BIH3XoEoQ7C81ylLI6YY5DTZAfVgK1oLtLKBz+I31b+xnEMG8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
